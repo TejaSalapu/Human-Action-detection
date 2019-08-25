@@ -13,49 +13,25 @@ We have used UCF101 dataset for our analysis and a glimpse of the UCF101 dataset
 **Video preprocessing :**
 The videos are varying length sequences and 30 frames of a video are considered. Since some frames of the video are empty which means there is no action taking place, some frames are skipped according to a defined criteria i.e., taking frames in fixed intervals apart.
 Each frame is resized to a size of 50 by 50 pixels and converted to grayscale for reducing the computational complexity since it is reported that luminance is by far more important in distinguishing visual features than chrominance. We tested several configurations for example, 15 frames with image sizes varying from 32 by 32 to 50 by 50 pixels. We have also tested the model with RGB color coding.
+
+
 **Evaluation Metrics:** 
 
+Report.JPG
 
-
-
-
-
-
-
-
-
-
-Precision-Recall:
-Precision-recall is a common method in classification problems. Precision measures result relevancy, while recall measures how many relevant results are returned 6 . F1-score is weighted harmonic mean of the precision and recall, and it also measures the degree of balance between false positives and false negatives.
-
- 
-Where TP = True Positive FN = False Negative
-FP = False Positive
-
-Below is the precision recall report for the configuration using 50 by 50 image size and 30 frames.
-
-precision	recall	f1-score	support
-
-IceDancing Basketball
-Biking HulaHoop HorseRace ApplyEyeMakeup
-
-avg / total
-
-
-Confusion Matrix:
+**Confusion Matrix:**
 
 unnormalised confusion matrix obtained :
  
- 
+ CM1.jpg
 
 The normalised confusion matrix is :
+
+CM2.jpg
  
-Accuracy and Loss Curves:
+**ROC curve:**
 
-plotted the accuracy and loss for both training and validation data. The graphs are shown below:
-
-
-ROC curve:
+MultiROc.jpg
  
 
 
