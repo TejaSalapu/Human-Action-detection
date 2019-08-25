@@ -17,21 +17,33 @@ Each frame is resized to a size of 50 by 50 pixels and converted to grayscale fo
 
 **Evaluation Metrics:** 
 
-Report.JPG
+<p align="center">
+ 
+  <img src="Report.JPG" width="360">
+</p>
 
 **Confusion Matrix:**
 
 unnormalised confusion matrix obtained :
  
- CM1.jpg
+<p align="center">
+ 
+  <img src="CM1.jpg" width="360">
+</p> 
 
 The normalised confusion matrix is :
 
-CM2.jpg
+<p align="center">
+ 
+  <img src="CM2.jpg" width="360">
+</p>
  
 **ROC curve:**
 
-MultiROc.jpg
+<p align="center">
+ 
+  <img src="MultiROc.jpg" width="360">
+</p>
  
 
 
